@@ -1,0 +1,37 @@
+package assignment2;
+
+import java.util.Scanner;
+
+public class palindrome {
+	void isPalindrome() {
+		int remainder=0, temp;
+		int sum = 0, numDigits = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int sno = sc.nextInt();
+		temp = sno;
+		while (temp > 0) {
+			temp = temp / 10;
+			numDigits++;
+		}
+		temp=sno;
+		while (temp > 0) {
+			remainder = temp % 10;
+			sum += Math.pow(remainder, numDigits);
+			temp = temp / 10;
+		}
+		if (sno==sum) {
+			System.out.println("The given number is armstrong number.");
+		} else {
+			System.out.println("The given number is not armstrong number.");
+		}
+		sc.close();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		palindrome eo = new palindrome();
+		eo.isPalindrome();
+
+	}
+}

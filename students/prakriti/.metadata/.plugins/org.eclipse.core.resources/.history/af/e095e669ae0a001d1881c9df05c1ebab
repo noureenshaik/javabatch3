@@ -1,0 +1,25 @@
+package assignment3;
+
+import java.util.Scanner;
+
+public class PosNegZero {
+	 void isPosNegZero(){
+	    	Scanner sc=new Scanner(System.in);
+			System.out.println("Enter a number : ");
+			int sno=sc.nextInt();
+
+			if(sno%2==0)
+
+			    System.out.println("The given number is even.");
+			else
+			    System.out.println("The given number is odd.");
+			sc.close();
+	    }
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			PosNegZero eo= new PosNegZero();
+			eo.isPosNegZero();
+
+			    }
+		}
+
