@@ -1,0 +1,27 @@
+package assignment2;
+
+public class swapTemp{
+
+	 int fno=100;
+	 int sno=200;
+	 int temp=0;
+	 //Non-static method/instance method
+	 void swap()
+	 {
+		 System.out.println("Two numbers before the swap:"); 
+		 System.out.println("fno:"+fno+"\t"+"sno:"+sno); 
+		 temp=fno;
+		 fno=sno;
+		 sno=temp;
+		 System.out.println("Two numbers after the swap:"); 
+		System.out.println("fno:"+fno+"\t"+"sno:"+sno); 
+	 }
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+	  swapTemp sw = new swapTemp();
+	  System.out.println("fno:"+sw.fno+"\t"+"sno:"+sw.sno); 
+	  sw.swap();
+	  }
+
+	}
+
