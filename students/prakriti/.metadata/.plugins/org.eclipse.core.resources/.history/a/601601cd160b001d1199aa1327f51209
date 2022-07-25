@@ -1,0 +1,29 @@
+package assignment3;
+
+import java.util.Scanner;
+
+public class prime1099 {
+	  void isPrime() {
+			int count=0;
+          
+          
+          for(int i=10;i<=99;i++)
+          {
+        	  for(int j=1;j<=i;j++){
+         if (i% j == 0){
+           count=count+1;
+          }
+          }
+        	  if(count<2)
+  				System.out.println(i);
+          }
+			sc.close();
+		}
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			prime1099 eo = new prime1099();
+			eo.isPrime();
+
+		}
+	}
