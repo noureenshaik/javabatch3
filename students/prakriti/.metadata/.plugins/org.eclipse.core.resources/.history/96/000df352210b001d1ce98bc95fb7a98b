@@ -1,0 +1,16 @@
+package assignment3;
+
+public class question19 {
+    public static void main(String[] args) {
+        int firstValues=5;
+        int count=0;
+        int initNum=1;
+        while(count!=firstValues){
+            if((startNum%2==0)&&(startNum%3==0)&&(startNum%5==0)){
+                System.out.println(startNum);
+                count++;
+
+            }
+            startNum++;
+        }
+     }
