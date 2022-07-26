@@ -1,0 +1,17 @@
+
+public class ArithmeticEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int fno = 100;
+		int sno = 50;
+		System.out.println(fno + sno);
+		System.out.println(fno - sno);
+		System.out.println(fno * sno);
+		System.out.println(fno / sno);
+		System.out.println(fno % sno);
+
+	}
+
+}

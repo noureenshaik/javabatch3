@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class MaxAndMin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the size of the Array : ");
+		int size = sc.nextInt();
+		
+		int arr[] = new int[size];
+		
+		
+		int max = 0;
+		for (int i=0;i<size;i++) {
+			if (arr[i]<max)
+				arr[i]=max;
+		}
+		System.out.println("Max of the Array is : "+max);
+
+	}
+
+}
