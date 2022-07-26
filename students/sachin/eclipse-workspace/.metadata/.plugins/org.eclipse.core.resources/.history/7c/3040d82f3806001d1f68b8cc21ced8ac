@@ -1,0 +1,14 @@
+
+public class AssignmentOperatorEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 10;
+		
+		x =x+10; //Instead of writing like we can use...
+		x+=10;
+
+	}
+
+}
