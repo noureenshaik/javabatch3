@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class NumberSingleDigit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Enter a number: ");
+		Scanner sc = new Scanner (System.in);
+		int number = sc.nextInt();
+		
+		System.out.println("Your number is: " + number);
+
+		if (number/10 < 1)
+		{
+		 System.out.println("Number is single digit");
+		}
+		else 
+		{
+			System.out.println("Number is not single digit");
+		}
+	}
+
+}

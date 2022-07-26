@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void isEven()&apos; from &apos;EvenOrNot.main(...)&apos; to &apos;EvenOrNot&apos;&#x0D;&#x0A;- Original project: &apos;FlowControls&apos;&#x0D;&#x0A;- Method name: &apos;isEven&apos;&#x0D;&#x0A;- Destination type: &apos;EvenOrNot&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;isEven&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{EvenOrNot.java" name="isEven" replace="false" selection="142 244" stamp="1658192348373" version="1.0" visibility="1"/>
+</session>

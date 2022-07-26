@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ArmStrongOrNot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int n = sc.nextInt();
+		int power = power(n);
+		
+		int i=0;
+		while(n>0) {
+			i+=(n%10)^power;
+			System.out.println(i);
+			n=n/10;
+		}
+		System.out.println(i);
+	}
+
+	public static int power(int n) {
+		int count=0;
+		while(n>0) {
+			n=n/10;
+			count++;
+		}
+		System.out.println(count);
+		return count;
+	}
+
+}
