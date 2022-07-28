@@ -1,0 +1,24 @@
+package assignment2;
+
+public class swap1 {
+
+	 int fno=100;
+	 int sno=200;
+	 int temp=0;
+	 //Non-static method/instance method
+	 void swap()
+	 {
+		 temp=fno;
+		 fno=sno;
+		 sno=temp;
+		System.out.println("fno:"+fno+"\t"+"sno:"+sno); 
+	 }
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+	  swapnumber sw = new swapnumber();
+	  System.out.println("fno:"+sw.fno+"\t"+"sno:"+sw.sno); 
+	  sw.swap();
+	  }
+
+	}
+

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class PrimeNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number for the range: ");
+		int range = sc.nextInt();
+		
+		for (int i= 2;i<=range;i++) {
+			for (int j=3;j<i;j++) {
+				if (i%j==0) {
+					break;
+				}
+				if (j==i-1)
+					System.out.println(i);
+			}
+		}
+
+	}
+
+}

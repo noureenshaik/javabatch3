@@ -1,0 +1,48 @@
+
+public class PrintEvenNumber100 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("Printing Even Number upto 100");
+		
+		
+		int num = 2;
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 5; j++) {
+				System.out.print(num + " ");
+				num += 2;
+			}
+			System.out.println();
+		}
+
+		System.out.println("\n"+"Printing Odd Number upto 100");
+		
+		int oddNum = 1;
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 5; j++) {
+				System.out.print(oddNum + " ");
+				oddNum += 2;
+			}
+			System.out.println();
+		}
+		
+System.out.println("\n"+"Printing Number in the space of 3");
+		
+		int num3 = 1;
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 5; j++) {
+				if (num3==100)
+					break;
+				System.out.print(num3 + " ");
+				num3 += 3;
+				
+			}
+			if (num3==100)
+				break;
+			System.out.println("yolo");
+		}
+
+	}
+}
