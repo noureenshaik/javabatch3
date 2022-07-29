@@ -3,8 +3,8 @@ public class Question9 {
 	static void duplicateValue(String[] a, String[] b) {
 		System.out.println("Duplicate values are: ");
 		String[] result = new String[a.length];
-		for(int i=0;i<result.length;i++) {
-			result[i]="";
+		for (int i = 0; i < result.length; i++) {
+			result[i] = "";
 		}
 		for (int i = 0; i < a.length; i++) {
 
@@ -17,11 +17,10 @@ public class Question9 {
 			}
 		}
 
-
-			for (int i = 0; i < result.length; i++) {
-				if (!result[i].isEmpty())
-					System.out.print(result[i] + ", ");
-			}
+		for (int i = 0; i < result.length; i++) {
+			if (!result[i].isEmpty())
+				System.out.print(result[i] + ", ");
+		}
 	}
 
 	public static void main(String[] args) {
