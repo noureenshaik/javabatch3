@@ -1,0 +1,19 @@
+
+public class SwapUsingTemp {
+
+	public static void main (String[] args) {
+		int a=100;
+		int b = 200;
+		int temp = 0;
+		
+		System.out.println("Before swap: ");
+		System.out.println("a : "+a+"/t"+"b : "+b);
+		
+		a = temp;
+		a = b;
+		b = temp;
+		
+		System.out.println("After swap: ");
+		System.out.println("a : "+a+"/t"+"b : "+b);
+	}
+}

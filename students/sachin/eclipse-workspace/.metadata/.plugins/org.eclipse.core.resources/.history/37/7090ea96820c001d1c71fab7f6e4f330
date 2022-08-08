@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AddNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Number : ");
+		int num=sc.nextInt();
+		
+		while(num>=0) {
+			sum+=num;
+			System.out.println("Enter another number, if you want to exit enter a -ve number");
+			sc.nextInt();		
+		}
+		System.out.println("Sum of Numbers : ");
+		sc.close();
+	}
+
+}
