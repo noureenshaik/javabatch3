@@ -1,5 +1,4 @@
-# javabatch3
-git clone 
+git clone https://github.com/noureenshaik/javabatch3.git
 git status
 cd javabatch3/
 git status
