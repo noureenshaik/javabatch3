@@ -1,0 +1,22 @@
+
+public class ArithmeticEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int fno = 100;
+		int sno = 50;
+		System.out.println(fno + sno); // 150
+		System.out.println(fno - sno); //50
+		System.out.println(fno * sno); //5000
+		System.out.println(fno / sno); //2
+		System.out.println(fno % sno); //0
+
+		
+		System.out.println(10*10/5+3-1*4/2);
+		// (expression)  //division , multiplication, addition, subtraction
+		
+		System.out.println(4/2+1+1*(5-3));
+	}
+
+}
