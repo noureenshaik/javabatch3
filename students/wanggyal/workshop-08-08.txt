@@ -1,0 +1,25 @@
+create schema Employee;
+
+create table Employee.employee (
+emp_id int NOT NULL,
+firstname varchar(45) NOT NULL,
+lastname varchar(45) NOT NULL,
+department varchar (45) NOT NULL,
+Primary Key (emp_id)
+);
+
+alter table Employee.employee add email varchar(45);
+
+alter table Employee.employee change department dept varchar(45);
+
+insert into Employee.employee (firstname,lastname,dept,email) values ('Wanggyal','Sherpa','Devoloper','w.sherpa@kmail.com');
+
+insert into Employee.employee (firstname,lastname,dept,email) values ('Mike','Sherpa','Devoloper','mike.s@kmail.com');
+
+insert into Employee.employee (firstname,lastname,dept,email) values ('Gary','lama','Devoloper','lama.gary@kmail.com');
+
+update  Employee.employee set firstname='Shiva', lastname='Reddy' where emp_id=1;
+
+update  Employee.employee set firstname='Nourine', lastname='S.' where emp_id=2;
+
+update  Employee.employee set firstname='Saroj', lastname='B.' where emp_id=3;
