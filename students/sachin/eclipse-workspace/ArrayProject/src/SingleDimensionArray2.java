@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SingleDimensionArray2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String [] str = new String[3];
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0; i<str.length;i++) {
+			System.out.println("Enter the Name : ");
+			str[i] = sc.nextLine();
+		}
+		
+		for(String name:str)
+			System.out.println(name);
+
+	}
+
+}
