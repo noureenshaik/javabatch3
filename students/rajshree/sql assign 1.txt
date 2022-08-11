@@ -1,0 +1,4 @@
+select * from bootcamp.employees;
+alter table bootcamp.employees add column email varchar(50) not null;
+alter table bootcamp.employees rename column department to dept;
+update  bootcamp.employees set firstname = "Raj", lastname = "thapa" where emp_id=100;
