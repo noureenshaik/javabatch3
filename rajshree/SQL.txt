@@ -1,0 +1,3 @@
+Step 1. I created a Schema
+step 2. I created a table and added some rows and column.
+step 3. I inserted data into a table
