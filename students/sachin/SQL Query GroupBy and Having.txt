@@ -1,0 +1,15 @@
+SELECT * FROM takeo.vendors
+order by product desc, price asc;
+
+select  vendorname, price, sum(price) from takeo.vendors group by price;
+
+-- select column, aggregate (functions) from table group by column;
+
+select price, avg(price) from takeo.vendors group by price having max(price)>5000; 
+
+select * from takeo.vendors where location = "bangalore" and products = "software";
+select * from takeo.vendors where location = "bangalore" and products = "electrical";
+select * from takeo.vendors where not product = "laptop" and vendorname = "wipro";
+select * from takeo.vendors where location = "bangalore" and product = "software";
+select * from takeo.vendors where location = "hyderabad" or product = "electrical";
+select * from takeo.vendors where not product = "laptop" or product = "electrical";
