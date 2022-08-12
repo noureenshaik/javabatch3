@@ -1,8 +1,0 @@
-SELECT * FROM takeo.clients;
-select * from takeo.clients where companyname like "a%";
-select * from takeo.clients where seril_no between 1001 and 1002;
-select * from takeo.clients where seril_no in (1001,1002);
-select * from takeo.clients where seril_no not in (1001,1002);
-select * from takeo.clients where companyname like "a%";
-select * from takeo.clients where companyname like "%a";
-select * from takeo.clients where companyname like "a__%c";
