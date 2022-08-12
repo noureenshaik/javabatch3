@@ -1,8 +1,0 @@
-How did you download Git and what have you known about Git?
-
-Download Git from the website for Windows, also make sure you download Git Bash.
-After it is installed, create a folder and then inside the folder open Git Bash by right-clicking and opening Git Bash there.
-Now type git clone and get the http clone url from Github for the repository you want to download
-tadaaa. Downloaded
-
-Git is versioning system where people can collaborate on the same reposiftory in a systematic way.

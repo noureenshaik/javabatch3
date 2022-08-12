@@ -1,4 +1,0 @@
- 1) we created the takeo data base
-2) we created the students table in the takeo databse
-3) the column name lastname, college department was created
-4) 30 students data were added to the table
