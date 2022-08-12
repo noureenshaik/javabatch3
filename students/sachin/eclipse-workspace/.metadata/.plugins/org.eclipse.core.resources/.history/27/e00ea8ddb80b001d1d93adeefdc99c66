@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Student {
+	
+	int sno; 
+	String sname;
+	String sadd;
+	String email;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student addStudents[]= new Student[1];
+		Scanner sc = new Scanner(System.in);
+		
+		for (int i=0;i<addStudents.length;i++) {
+			
+			System.out.println("Enter Student Number : ");
+			int sno = sc.nextInt();
+			
+			System.out.println("Enter the Student Name : ");
+			String sname = sc.next();
+			
+			System.out.println("Enter the Student Address : ");
+			String address = sc.next();
+			
+			System.out.println("Enter the Student Email : ");
+			String email = sc.next();
+			
+			Student st = new Student();
+			st.sno = sno;
+			st.sname = sname;
+			st.sadd = address;
+			st.email = email;
+			addStudents[i] = st;
+			System.out.println("Student Registration Successful");
+		}
+		
+		for (Student student : addStudents) {
+			System.out.println(student.sname);
+		}
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package assignment2;
+
+import java.util.*;
+
+public class factorial {
+	void fac() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int sno = sc.nextInt();
+		int num = 1;
+		int fact=0;
+		for (int i = 0; i <sno; ++i) {
+			sno = sno * num;
+			num = --sno;
+			fact=sno;
+		}
+		System.out.println("factorial of"+sno+"is:"+fact);
+
+		sc.close();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		factorial eo = new factorial();
+		eo.fac();
+
+	}
+}

@@ -1,0 +1,11 @@
+Created Schema called takeo. 
+
+Created 30 datas. 
+
+Learned SELECT command. 
+
+Learned LIMIT command. 
+
+Learned how to select columns like department, college name, base_location etc. 
+
+Learned about git push again. 

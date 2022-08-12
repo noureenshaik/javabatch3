@@ -1,0 +1,12 @@
+1. Opened MySQL workbench. 
+2. Under query menu select create a new database schema in the connected server option. 
+3. Name the schema as takeo and apply the change. 
+4. On the navigator side collapse takeo schema and right select tables option. 
+5. Create a table name students. 
+6. Add columns, stu_id, firstname, lastname, col_name, department, address and base_loc in the table with the corresponding data types. 
+7. Add records for each columns. 
+8. Perform sql queries like 
+SELECT * FROM takeo.students;
+select base_loc from takeo.students limit 6;
+select department from takeo.students limit 5;
+select lastname from takeo.students limit 1
