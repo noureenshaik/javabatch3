@@ -1,0 +1,12 @@
+Exception is the error that occurs in the java progarm due to error in the programming format   or the logic by the programmer that cause the termination of the program at the point of the exception and not going beyond that point in the program 
+There are so many exceptions in the java that have been identified and classified in the java. 
+Once  exception occurs and it wil be identified by the java program it will be thrown 
+To prevent that we use try catch block method  
+We put the statements that might cause the exception inside the try block and inside the catch block we write the nature of the exception and print the error message 
+
+    Null point exception ::: if we try to do some operation on a reference but the reference  is null 
+   Then it will cause null point exception 
+
+   Arithematic Exception::: If a number is divided by zero then it will cause the arithmetic          
+                                           exception 
+ArrayIndexOutOfbound :: if we want to get or assign the value to index of an array greater r than               or equal its length then it causes the arrayIndexOutOfBound exception 
